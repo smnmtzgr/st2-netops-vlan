@@ -1,0 +1,6 @@
+---
+name: netops.add_vlan
+action_ref: st2-netops-vlan.add_vlan
+description: Add vlan on remote network devices
+formats:
+  - "add vlan {{vlan_id}}:{{vlan_name}} on {{devices}}"

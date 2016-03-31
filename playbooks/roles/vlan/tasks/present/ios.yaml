@@ -1,0 +1,8 @@
+---
+- name: add vlan
+  ios_template:
+    src: "{{ state }}/ios.j2"
+    config: "{{ config }}"
+    provider: "{{ provider }}"
+  notify:
+    - write config

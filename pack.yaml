@@ -1,0 +1,7 @@
+### Place information about your pack version here.
+---
+name: st2-netops-vlan
+description: A ansible pack for network automation (vlan handling)
+version: 0.1.0
+author: Simon Metzger
+email: smnmtzgr@gmail.com

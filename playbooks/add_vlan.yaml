@@ -1,0 +1,10 @@
+---
+- name: add vlan on devices
+  hosts: "{{ devices | default('all') }}"
+  gather_facts: no
+  connection: local
+
+  roles:
+    - role: network_facts
+    - role: vlan
+      state: present
