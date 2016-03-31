@@ -1,5 +1,5 @@
 ---
-- name: remove ios snmp parameters
+- name: delete vlan
   ios_template:
     src: "{{ state }}/ios.j2"
     config: "{{ config }}"
