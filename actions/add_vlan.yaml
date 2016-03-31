@@ -15,7 +15,7 @@ parameters:
   cmd:
     description: "Command to run"
     immutable: true
-    default: "ansible-playbook /opt/stackstorm/packs/${ST2_ACTION_PACK_NAME}/playbooks/add_vlan.yaml -i /opt/stackstorm/packs/${ST2_ACTION_PACK_NAME}/playbooks/hosts --extra-vars='devices={{ devices }} vlan_id={{ vlan_id }} vlan_name={{ vlan_name }}"
+    default: "ansible-playbook /opt/stackstorm/packs/${ST2_ACTION_PACK_NAME}/playbooks/add_vlan.yaml -i /opt/stackstorm/packs/${ST2_ACTION_PACK_NAME}/playbooks/hosts --extra-vars='devices={{ devices }} vlan_id={{ vlan_id }} vlan_name={{ vlan_name }}'"
   devices:
     description: "Ansible hosts"
     type: string
