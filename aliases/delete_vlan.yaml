@@ -3,4 +3,4 @@ name: netops.delete_vlan
 action_ref: st2-netops-vlan.delete_vlan
 description: Delete vlan on remote network devices
 formats:
-  - "delete vlan {{vlan_id}}:{{vlan_name}} on {{devices}}"
+  - "netops delete vlan {{vlan_id}}:{{vlan_name}} on {{devices}}"
