@@ -4,5 +4,3 @@ action_ref: st2-netops-vlan.add_vlan
 description: Add vlan on remote network devices
 formats:
   - "netops add vlan {{vlan_id}}:{{vlan_name}} on {{devices}}"
-result:
-    format: "{~}**Honk Honk**"
